@@ -5,5 +5,5 @@
 ## Set up
 
 ```bash
-rice clone module pimp://nitrogen
+pimp clone module pimp://nitrogen
 ```
