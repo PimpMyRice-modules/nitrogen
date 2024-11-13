@@ -1,3 +1,4 @@
+os: linux
 run:
   - if_running: "i3"
   - shell: 'nitrogen {% set bgmodes = {"fill": "--set-zoom-fill", "fit": "--set-scaled"} %} {{bgmodes[wallpaper.mode]}} {{wallpaper.path}}'
